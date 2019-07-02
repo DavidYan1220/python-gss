@@ -1,0 +1,6 @@
+print("enter seconds")
+x = input()
+hrs = int(int(x)/3600)
+min = int((int(x)-3600*hrs)/60)
+sec = int(int(x)-3600*int(hrs)-60*min)
+print("Hours:",hrs,",Minute:",min,",Second:",sec)
